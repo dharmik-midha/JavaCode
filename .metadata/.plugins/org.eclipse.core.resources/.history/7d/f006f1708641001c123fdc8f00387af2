@@ -1,0 +1,42 @@
+class CallMe
+{
+    static int i=3;
+    synchronized int booking()
+    {   if (i>=1)
+        { System.out.println("Booking Done!!");
+            i--;
+        }        
+        else
+        { System.out.println("Booking not Availiable");  }
+        return 0;
+    }
+}
+
+class Callers implements Runnable
+{
+    String name;
+    Thread t;
+    CallMe targs;
+    Callers(CallMe targs1,String n)
+    {
+        targs=targs1;
+        name=n;
+        t=new Thread(this,name);
+        t.start();
+    }
+    public void run()
+    {
+        targs.booking();
+    }
+}
+
+public class BookingSynchronization {
+    public static void main(String[] args) {
+        CallMe target=new CallMe();
+        Callers ob1=new Callers(target,"Child1");
+        Callers ob2=new Callers(target,"Child2");
+        Callers ob3=new Callers(target,"Child3");
+        Callers ob4=new Callers(target,"Child4");
+        Callers ob5=new Callers(target,"Child5");
+    }    
+}

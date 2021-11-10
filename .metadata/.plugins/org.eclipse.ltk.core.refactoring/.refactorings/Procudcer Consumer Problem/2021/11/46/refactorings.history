@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Quantity&apos; to &apos;Pcproblem&apos;&#x0D;&#x0A;- Original project: &apos;Procudcer Consumer Problem&apos;&#x0D;&#x0A;- Original element: &apos;Quantity&apos;&#x0D;&#x0A;- Renamed element: &apos;Pcproblem&apos;&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Quantity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Quantity.java[Quantity" matchStrategy="1" name="Pcproblem" qualified="false" references="false" similarDeclarations="false" stamp="1636480799792" textual="false" version="1.0"/>
+</session>

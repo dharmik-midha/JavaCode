@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;BalanceNotSufficientException&apos; to &apos;account&apos;&#x0D;&#x0A;- Original project: &apos;Exception&apos;&#x0D;&#x0A;- Original element: &apos;BalanceNotSufficientException&apos;&#x0D;&#x0A;- Renamed element: &apos;account&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BalanceNotSufficientException&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{BalanceNotSufficientException.java[BalanceNotSufficientException" matchStrategy="1" name="account" qualified="false" references="true" similarDeclarations="false" stamp="1636479409262" textual="false" version="1.0"/>
+</session>

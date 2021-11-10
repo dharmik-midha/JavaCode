@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LabdaFunction.moneychanger&apos; to &apos;lambdaexpression&apos;&#x0D;&#x0A;- Original project: &apos;Lambda Function&apos;&#x0D;&#x0A;- Original element: &apos;LabdaFunction.moneychanger&apos;&#x0D;&#x0A;- Renamed element: &apos;LabdaFunction.lambdaexpression&apos;&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;moneychanger&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;LabdaFunction{moneychanger.java[moneychanger" matchStrategy="1" name="lambdaexpression" qualified="false" references="false" similarDeclarations="false" stamp="1636556086011" textual="false" version="1.0"/>
+</session>
